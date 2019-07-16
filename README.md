@@ -3,7 +3,8 @@
 The hardest container image to find on dockerhub; So I build my own 🤪
 
 This image packs the [Docker Engine](https://docs.docker.com/engine/reference/commandline/cli/) 
-together with the [AWS Command Line Interface (CLI)](https://aws.amazon.com/cli/).
+together with the [AWS Command Line Interface (CLI)](https://aws.amazon.com/cli/) 
+and [Elastic Beanstalk Command Line Interface (EB CLI)](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html).
 This makes it possible to build docker images and push them to a 
 [Amazon Elastic Container Registry](https://aws.amazon.com/ecr/) Repository.
 
