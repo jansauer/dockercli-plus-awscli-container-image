@@ -1,4 +1,4 @@
-FROM docker:19.03.2
+FROM docker:19.03.15
 
 LABEL maintainer "Jan Sauer <jan@jansauer.de> (https://jansauer.de/)"
 
