@@ -12,6 +12,6 @@ ENV DOCKER_TLS_CERTDIR="/certs" \
     DOCKER_HOST="tcp://docker:2376" \
     DOCKER_TLS_VERIFY=1 \
     DOCKER_CERT_PATH="$DOCKER_TLS_CERTDIR/client"
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/usr/bin/bash", "-l", "-c"]
 
 COPY --from=0 /docker/docker /usr/local/bin
