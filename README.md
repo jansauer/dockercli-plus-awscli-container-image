@@ -1,12 +1,13 @@
-# Docker + AWS CLI = Docker Image
+# Docker CLI + AWS CLI = Docker Image
 
 The hardest container image to find on dockerhub; So I build my own 🤪
 
-This image packs the [Docker Engine](https://docs.docker.com/engine/reference/commandline/cli/) 
+This image packs the [Docker CLI](https://docs.docker.com/engine/reference/commandline/cli/) 
 together with the [AWS Command Line Interface (CLI)](https://aws.amazon.com/cli/).
 
-This makes it really easy to build/push/deploy projects using Gitlab CI, 
-[Amazon Elastic Container Registry](https://aws.amazon.com/ecr/) Repository and any other AWS Service you like.
+This makes it really easy to build push and deploy projects using Container Images, 
+with [Amazon Elastic Container Registry](https://aws.amazon.com/ecr/) Repositories 
+and any other AWS Service you like.
 
 ## License and Authors
 
