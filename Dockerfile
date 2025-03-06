@@ -4,7 +4,7 @@ RUN apk add curl tar && \
   curl -s https://download.docker.com/linux/static/stable/x86_64/docker-20.10.9.tgz | tar -xzf-
 
 
-FROM amazon/aws-cli:2.24.18
+FROM amazon/aws-cli:2.24.19
 
 LABEL maintainer "Jan Sauer <jan@jansauer.de> (https://jansauer.de/)"
 
